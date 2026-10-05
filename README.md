@@ -121,17 +121,25 @@
 
 ---
 
-## 👤 Project Owner & Lead Developer
+## 👥 Project Contributors
 
 <table>
 <tr>
 <td align="center">
   <a href="https://github.com/navyaranjan264">
-    <img src="https://avatars.githubusercontent.com/u/navyaranjan264" width="120px;" alt="Navya Ranjan" style="border-radius: 50%;" /><br />
+    <img src="https://github.com/navyaranjan264.png" width="120px;" alt="Navya Ranjan" style="border-radius: 50%;" /><br />
     <sub><b>Navya Ranjan</b></sub>
   </a>
   <br />
   <span>Lead Developer & Project Owner</span>
+</td>
+<td align="center">
+  <a href="https://github.com/Adish7Pandya">
+    <img src="https://github.com/Adish7Pandya.png" width="120px;" alt="Adish Pandya" style="border-radius: 50%;" /><br />
+    <sub><b>Adish Pandya</b></sub>
+  </a>
+  <br />
+  <span>Contributor</span>
 </td>
 </tr>
 </table>
