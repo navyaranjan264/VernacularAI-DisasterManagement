@@ -1,0 +1,527 @@
+[
+  {
+    "id": "calamity-zone-chennai",
+    "city": "Chennai / Kattankulathur",
+    "state": "Tamil Nadu",
+    "disasterHistory": "Cyclone Vardah (2016), Cyclone Michaung (2023), recurring coastal storm surge and Adyar/Kallaru basin inundation.",
+    "lat": 12.8231,
+    "lng": 80.0442,
+    "elevationMeters": 42,
+    "primaryThreat": "Cyclone & Coastal Storm Surge",
+    "dangerZone": {
+      "centerLat": 12.8180,
+      "centerLng": 80.0380,
+      "radiusMeters": 1800,
+      "description": "GST Road Lowland Inundation Belt & Potheri Lake Outflow"
+    },
+    "verifiedShelters": [
+      {
+        "name": "SRM Medical Ground Relief Campus",
+        "address": "SRM Nagar, Kattankulathur, Chengalpattu District, TN 603203",
+        "capacity": 3200,
+        "contact": "+91 44 2745 2270",
+        "elevation": 54,
+        "lat": 12.8258,
+        "lng": 80.0458,
+        "resourcesAvailable": ["Reverse Osmosis Water Purification", "Emergency Trauma Center", "125 kVA Diesel Generator", "Helipad Staging"]
+      },
+      {
+        "name": "Maraimalai Nagar High-Ground Shelter",
+        "address": "Municipality Community Centre, Sector 2, Maraimalai Nagar, TN 603209",
+        "capacity": 1800,
+        "contact": "+91 44 2745 3511",
+        "elevation": 48,
+        "lat": 12.7960,
+        "lng": 80.0240,
+        "resourcesAvailable": ["High-Capacity Cooking Depot", "Dry Rations (4,000 Meals)", "Solar Backup Array", "SDRF First-Responder Post"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "GST Elevated Corridor -> Chengalpattu Bypass via NH-32",
+        "avoidAreas": ["Potheri Railway Culvert Underpass", "Kallaru Stream Causeway", "Guduvanchery Low-Lying Lakebed"],
+        "targetElevationMeters": 54
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Chengalpattu Youth Civil Defense Corps",
+        "coordinatorPhone": "+91 94440 21980",
+        "volunteerCapacity": 240
+      },
+      {
+        "hubName": "Kattankulathur Community Action Team",
+        "coordinatorPhone": "+91 98841 83204",
+        "volunteerCapacity": 120
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-dibrugarh",
+    "city": "Dibrugarh / Brahmaputra Basin",
+    "state": "Assam",
+    "disasterHistory": "Annual Brahmaputra high-stage riverine flood surges, 1950 Great Assam Earthquake riverbed shifting, Maijan embankment breaches.",
+    "lat": 27.4728,
+    "lng": 94.9120,
+    "elevationMeters": 108,
+    "primaryThreat": "Severe Riverine Inundation",
+    "dangerZone": {
+      "centerLat": 27.4850,
+      "centerLng": 94.9020,
+      "radiusMeters": 2400,
+      "description": "Maijan Embankment Riparian Inundation Zone"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Embankment Stilt Shelter Zone 3",
+        "address": "Brahmaputra Dyke High Bund, Maijan High Crest, Dibrugarh, AS 786001",
+        "capacity": 2200,
+        "contact": "+91 373 232 2999",
+        "elevation": 118,
+        "lat": 27.4880,
+        "lng": 94.9210,
+        "resourcesAvailable": ["Raised Stilt Livestock Pens", "Chlorination Plants", "12 Inflatable Rescue Boats (IRBs)", "Satellite VHF Station"]
+      },
+      {
+        "name": "Assam Medical College Relief Camp",
+        "address": "AMC High Grounds, Barbari, Dibrugarh, AS 786002",
+        "capacity": 4500,
+        "contact": "+91 373 230 0080",
+        "elevation": 115,
+        "lat": 27.4610,
+        "lng": 94.9180,
+        "resourcesAvailable": ["Level-1 Trauma Facility", "Anti-Venom Depot", "Mass Quarantine Wards", "Potable Water Tanker Fleet"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Mancotta Road Spur -> AMC Elevated Boulevard",
+        "avoidAreas": ["Phaika Char Sandbars", "Maijan Tea Estate Lowlands", "Old DTP Embankment breaches"],
+        "targetElevationMeters": 118
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Brahmaputra Valley Quick Response Brigade",
+        "coordinatorPhone": "+91 94350 41201",
+        "volunteerCapacity": 310
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-wayanad",
+    "city": "Wayanad / Meppadi",
+    "state": "Kerala",
+    "disasterHistory": "2024 Chooralmala-Mundakkai catastrophic debris flow, 2019 Puthumala landslide, recurring Western Ghats cloudbursts.",
+    "lat": 11.5534,
+    "lng": 76.1268,
+    "elevationMeters": 840,
+    "primaryThreat": "High-Slope Landslides & Debris Flow",
+    "dangerZone": {
+      "centerLat": 11.5380,
+      "centerLng": 76.1380,
+      "radiusMeters": 2100,
+      "description": "Chooralmala-Mundakkai Valley Runout Zone"
+    },
+    "verifiedShelters": [
+      {
+        "name": "St. Joseph Higher Secondary Relief Camp",
+        "address": "Meppadi Hill Ridge, Wayanad District, KL 673577",
+        "capacity": 1500,
+        "contact": "+91 4936 282 222",
+        "elevation": 910,
+        "lat": 11.5580,
+        "lng": 76.1210,
+        "resourcesAvailable": ["Solid Bedrock Foundation", "Emergency Surgical Triage", "Child Friendly Care Unit", "Satellite Phone Terminal"]
+      },
+      {
+        "name": "Chooralmala Base Staging Hub",
+        "address": "Forest Range Hillock Depot, Meppadi Panchayat, KL 673577",
+        "capacity": 950,
+        "contact": "+91 4936 283 400",
+        "elevation": 880,
+        "lat": 11.5490,
+        "lng": 76.1150,
+        "resourcesAvailable": ["NDRF Search Canine Post", "Heavy Earthmover Fuel Cache", "Thermal Drone Operations Base"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Meppadi-Nedumbrakkara Ridge Highway",
+        "avoidAreas": ["Chooralmala Bailey Bridge Approach", "Iruvaipuzha River Channel", "Estate Division 4 Slope"],
+        "targetElevationMeters": 910
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Wayanad Highland Rescue Volunteers",
+        "coordinatorPhone": "+91 94471 28905",
+        "volunteerCapacity": 180
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-joshimath",
+    "city": "Joshimath / Chamoli",
+    "state": "Uttarakhand",
+    "disasterHistory": "2023 land subsidence crisis, 2021 Chamoli flash flood disaster, active seismic Zone V tectonic faults.",
+    "lat": 30.5564,
+    "lng": 79.5661,
+    "elevationMeters": 1890,
+    "primaryThreat": "Seismic Subsidence & Slope Rupture",
+    "dangerZone": {
+      "centerLat": 30.5520,
+      "centerLng": 79.5620,
+      "radiusMeters": 1400,
+      "description": "Sunil & Marwari Fissure & Sinking Zone"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Ravigram High-Ground Safe Center",
+        "address": "Upper Ravigram Plateau, Joshimath, Chamoli, UK 246443",
+        "capacity": 1200,
+        "contact": "+91 1372 222 190",
+        "elevation": 2040,
+        "lat": 30.5630,
+        "lng": 79.5740,
+        "resourcesAvailable": ["Non-Fissured Bedrock Base", "Sub-Zero Thermal Tents", "High-Altitude Medical Cache", "Water Filtration Unit"]
+      },
+      {
+        "name": "ITBP Sector Staging Hub",
+        "address": "1st Battalion ITBP Grounds, Joshimath Cantonment, UK 246443",
+        "capacity": 2000,
+        "contact": "+91 1372 222 144",
+        "elevation": 1980,
+        "lat": 30.5680,
+        "lng": 79.5590,
+        "resourcesAvailable": ["Military Heli-Pad", "Heavy Snow/Rock Clearers", "Ambulance Convoy", "Secure Satellite Net"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Badrinath National Highway Upper Bypass (NH-07)",
+        "avoidAreas": ["JP Colony Toe Slope", "Marwari Alaknanda Confluence", "Gandhi Nagar Fissure Belt"],
+        "targetElevationMeters": 2040
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Garhwal Alpine Emergency Network",
+        "coordinatorPhone": "+91 94120 73510",
+        "volunteerCapacity": 140
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-chiplun",
+    "city": "Chiplun / Ratnagiri",
+    "state": "Maharashtra",
+    "disasterHistory": "2021 Vashishti River flash deluge (submerging town up to 15 feet), Kolkewadi dam emergency spillway discharge.",
+    "lat": 17.5323,
+    "lng": 73.5186,
+    "elevationMeters": 22,
+    "primaryThreat": "Reservoir Surge & River Breach",
+    "dangerZone": {
+      "centerLat": 17.5280,
+      "centerLng": 73.5120,
+      "radiusMeters": 2200,
+      "description": "Vashishti River Confluence & Chiplun Bazaar Basin"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Chiplun Municipal Council High Hall",
+        "address": "Kaviltale Hill Road, Chiplun, Ratnagiri, MH 415605",
+        "capacity": 2100,
+        "contact": "+91 2355 252 022",
+        "elevation": 64,
+        "lat": 17.5390,
+        "lng": 73.5260,
+        "resourcesAvailable": ["Elevated Safe Kitchen", "Clean Tanker Grid", "High-Power Sump Pumps", "First Aid Unit"]
+      },
+      {
+        "name": "Bahadur Shaikh Ridge Shelter",
+        "address": "Mumbai-Goa Highway Spur, Bahadur Shaikh Naka, MH 415605",
+        "capacity": 1600,
+        "contact": "+91 2355 251 100",
+        "elevation": 58,
+        "lat": 17.5450,
+        "lng": 73.5350,
+        "resourcesAvailable": ["Generator Banks", "Boat Launch Staging Ground", "Sanitation Modules"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Kaviltale Plateau Link to Guhagar Bypass",
+        "avoidAreas": ["Shivaji Chowk Lowlands", "Vashishti Bridge Old Causeway", "Muradpur River Bank"],
+        "targetElevationMeters": 64
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Konkan Disaster Rescue Cell Chiplun",
+        "coordinatorPhone": "+91 98224 81902",
+        "volunteerCapacity": 220
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-puri",
+    "city": "Puri Coastal Sector",
+    "state": "Odisha",
+    "disasterHistory": "1999 Super Cyclone, Cyclone Fani (2019, 215 km/h winds), Cyclone Yaas (2021), recurring Bay of Bengal storm surges.",
+    "lat": 19.8135,
+    "lng": 85.8312,
+    "elevationMeters": 18,
+    "primaryThreat": "Super Cyclone & Marine Inundation",
+    "dangerZone": {
+      "centerLat": 19.8020,
+      "centerLng": 85.8240,
+      "radiusMeters": 3000,
+      "description": "Chakratirtha Beach & Baliapanda Low Coastal Fringe"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Puri Multi-Purpose Cyclone Shelter",
+        "address": "VIP Road Inland Crest, Puri, OD 752002",
+        "capacity": 4000,
+        "contact": "+91 6752 222 034",
+        "elevation": 32,
+        "lat": 19.8220,
+        "lng": 85.8390,
+        "resourcesAvailable": ["Wind-Engineered RCC Dome", "Dedicated High-Capacity Desalination", "Solar Hybrid Batteries", "ODRAF Special Station"]
+      },
+      {
+        "name": "Marine Drive Evacuation Center",
+        "address": "Balukhand Sanctuary High Ridge, Puri-Konark Link, OD 752002",
+        "capacity": 2500,
+        "contact": "+91 6752 223 110",
+        "elevation": 28,
+        "lat": 19.8350,
+        "lng": 85.8560,
+        "resourcesAvailable": ["Large Warehouse Rations Cache", "Community Kitchen", "Emergency Radio Rig"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Puri-Bhubaneswar National Highway (NH-316)",
+        "avoidAreas": ["Sea Beach Road", "Baliapanda Fishing Colony", "Mangala River Estuary"],
+        "targetElevationMeters": 32
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Odisha Disaster Youth Corps Puri",
+        "coordinatorPhone": "+91 94370 12891",
+        "volunteerCapacity": 360
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-srinagar",
+    "city": "Srinagar / Jhelum Basin",
+    "state": "Jammu & Kashmir",
+    "disasterHistory": "2014 Great Kashmir Flood (submerging 70% of Srinagar under 18 feet of water), recurring spring snowmelt flash overflows.",
+    "lat": 34.0837,
+    "lng": 74.7973,
+    "elevationMeters": 1585,
+    "primaryThreat": "River Basin Urban Flash Flooding",
+    "dangerZone": {
+      "centerLat": 34.0720,
+      "centerLng": 74.8100,
+      "radiusMeters": 2800,
+      "description": "Rajbagh, Jawahar Nagar & Kursu Bund Inundation Depression"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Bakshi Stadium Safe Staging Center",
+        "address": "Tulsi Bagh High Grounds, Srinagar, JK 190008",
+        "capacity": 5500,
+        "contact": "+91 194 245 2123",
+        "elevation": 1602,
+        "lat": 34.0710,
+        "lng": 74.8020,
+        "resourcesAvailable": ["Mass Enclosed Grandstands", "High-Volume Diesel Dewatering Pumps", "Field Hospital", "Helicopter Extraction Pad"]
+      },
+      {
+        "name": "Tourist Reception Centre Ground Depot",
+        "address": "TRC Complex, Shervani Road, Srinagar, JK 190001",
+        "capacity": 3000,
+        "contact": "+91 194 247 2644",
+        "elevation": 1598,
+        "lat": 34.0780,
+        "lng": 74.8210,
+        "resourcesAvailable": ["Thermal Sleeping Tents", "Packaged Drinking Water Store", "State Control Room Branch"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Airport Road Elevated Arterial via Hyderpora Flyover",
+        "avoidAreas": ["Kursu Rajbagh Riverbanks", "Lal Chowk Bunds", "Dal Gate Sluice Basin"],
+        "targetElevationMeters": 1602
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Kashmir Flood Relief Volunteer Front",
+        "coordinatorPhone": "+91 94190 44210",
+        "volunteerCapacity": 290
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-surat",
+    "city": "Surat / Tapi Basin",
+    "state": "Gujarat",
+    "disasterHistory": "1998 & 2006 catastrophic Ukai Dam flood discharge (submerging 85% of city), urban drainage choke points.",
+    "lat": 21.1702,
+    "lng": 72.8311,
+    "elevationMeters": 13,
+    "primaryThreat": "Upstream Dam Release & Flood Surge",
+    "dangerZone": {
+      "centerLat": 21.1850,
+      "centerLng": 72.8120,
+      "radiusMeters": 3200,
+      "description": "Rander & Adajan Tapi Riparian Basin"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Adajan Community High Hall",
+        "address": "L.P. Savani Road, Adajan, Surat, GJ 395009",
+        "capacity": 2800,
+        "contact": "+91 261 278 1200",
+        "elevation": 24,
+        "lat": 21.1920,
+        "lng": 72.7980,
+        "resourcesAvailable": ["Multi-Storey Flood Staging", "Industrial Generators", "Clean Water Reservoirs", "Medical Dispensary"]
+      },
+      {
+        "name": "Vesu High-Ground Relief Depot",
+        "address": "VIP Road, Vesu University Sector, Surat, GJ 395007",
+        "capacity": 3600,
+        "contact": "+91 261 225 3300",
+        "elevation": 22,
+        "lat": 21.1460,
+        "lng": 72.7840,
+        "resourcesAvailable": ["Heavy Logistics Loading Bay", "Dry Ration Supply Warehouse", "SDRF Outpost"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Gaurav Path Expressway toward Dumas High Ground",
+        "avoidAreas": ["Nehru Bridge Low Approach", "Singanpore Causeway", "Rander Gorat Road"],
+        "targetElevationMeters": 24
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Surat Civil Defense & Disaster Corps",
+        "coordinatorPhone": "+91 98251 30492",
+        "volunteerCapacity": 400
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-patna",
+    "city": "Patna / Ganga Belt",
+    "state": "Bihar",
+    "disasterHistory": "2019 severe urban waterlogging crisis (Rajendra Nagar submerged for 10 days), Ganga river high-stage backflow, Punpun river breach.",
+    "lat": 25.5941,
+    "lng": 85.1376,
+    "elevationMeters": 53,
+    "primaryThreat": "Riverine Overflow & Drainage Breach",
+    "dangerZone": {
+      "centerLat": 25.5890,
+      "centerLng": 85.1520,
+      "radiusMeters": 3500,
+      "description": "Rajendra Nagar & Kankerbagh Drainage Basin"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Gandhi Maidan Relief Complex",
+        "address": "Gandhi Maidan Elevated Pavilions, Patna, BR 800001",
+        "capacity": 6000,
+        "contact": "+91 612 222 1950",
+        "elevation": 59,
+        "lat": 25.6180,
+        "lng": 85.1440,
+        "resourcesAvailable": ["High-Ground Tented Township", "Community Kitchen (10,000 meals/day)", "NDRF 9th Battalion Camp", "Mobile Water Purification"]
+      },
+      {
+        "name": "Patliputra Sports Complex Safe Hub",
+        "address": "Kankerbagh Elevated Zone, Patna, BR 800020",
+        "capacity": 3800,
+        "contact": "+91 612 235 4400",
+        "elevation": 57,
+        "lat": 25.5920,
+        "lng": 85.1620,
+        "resourcesAvailable": ["Indoor Stadium Shelter", "Backup Power Generation (200 kVA)", "Sanitary Napkin & Baby Food Stash"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Bailey Road High Crest Corridor -> Danapur Elevated Road",
+        "avoidAreas": ["Saidpur Nala Culvert", "Rajendra Nagar Road Overbridge Dip", "Pahari Sump Overflow Area"],
+        "targetElevationMeters": 59
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Bihar State Disaster Youth Action Team",
+        "coordinatorPhone": "+91 94310 55198",
+        "volunteerCapacity": 320
+      }
+    ]
+  },
+  {
+    "id": "calamity-zone-shimla",
+    "city": "Shimla / Beas-Sutlej Belt",
+    "state": "Himachal Pradesh",
+    "disasterHistory": "2023 massive monsoon landslides (Shiv Bawdi temple collapse, Summer Hill washaway), cloudbursts, fragile slope geology.",
+    "lat": 31.1048,
+    "lng": 77.1734,
+    "elevationMeters": 2206,
+    "primaryThreat": "Flash Inundation & Cloudburst Slopes",
+    "dangerZone": {
+      "centerLat": 31.1120,
+      "centerLng": 77.1580,
+      "radiusMeters": 1600,
+      "description": "Summer Hill & Shiv Bawdi Gutter Drainage Gorge"
+    },
+    "verifiedShelters": [
+      {
+        "name": "Ridge Safe Staging Zone",
+        "address": "The Ridge Crest, Mall Road High Ridge, Shimla, HP 171001",
+        "capacity": 2500,
+        "contact": "+91 177 265 8989",
+        "elevation": 2235,
+        "lat": 31.1055,
+        "lng": 77.1750,
+        "resourcesAvailable": ["Bedrock Ridge Structural Safety", "Sub-Surface Rain Reservoir (4.5M Liters)", "Emergency Rescue Command Center"]
+      },
+      {
+        "name": "Indira Gandhi Medical College Depot",
+        "address": "IGMC Elevated Complex, Circular Road, Shimla, HP 171001",
+        "capacity": 2000,
+        "contact": "+91 177 280 4251",
+        "elevation": 2180,
+        "lat": 31.1080,
+        "lng": 77.1860,
+        "resourcesAvailable": ["Level-1 Mountain Trauma Ward", "Thermal Blankets (5,000 units)", "Blood Bank", "High-Altitude Oxygen Depots"]
+      }
+    ],
+    "evacuationCorridors": [
+      {
+        "primaryRouteName": "Circular Road (Cart Road) Upper Bypass -> Sanjauli High Ridge",
+        "avoidAreas": ["Summer Hill Railway Cutting", "Tutu Nallah Road", "Krishna Nagar Slums Steep Face"],
+        "targetElevationMeters": 2235
+      }
+    ],
+    "activeVolunteerHubs": [
+      {
+        "hubName": "Himachal Hill Rescue Volunteers Shimla",
+        "coordinatorPhone": "+91 94180 88204",
+        "volunteerCapacity": 160
+      }
+    ]
+  }
+]

@@ -1,0 +1,335 @@
+{
+  "version": "NDMA-2026-V1",
+  "authority": "National Disaster Management Authority",
+  "standardsRevision": "2026 Integrated Multi-Hazard Incident Command Protocol",
+  "states": {
+    "assam": {
+      "stateName": "Assam",
+      "capital": "Dispur / Guwahati",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Assam State Disaster Management Authority (ASDMA)",
+      "primaryHazards": ["Brahmaputra River Floods", "Flash Floods", "Bank Erosion", "Hill Landslides"],
+      "policeJurisdictionFormat": "AS-POL-{DISTRICT}-FIR/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "1st SDRF Bn Guwahati", "contact": "0361-2237011", "specialization": "Deep Water Rescue and Inflatable Motorized Boats" },
+        { "unit": "2nd SDRF Bn Silchar", "contact": "03842-245812", "specialization": "Barak Valley Flood Triage and Evacuation" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "AS-SHT-01",
+          "name": "Kaziranga Elevated Multi-Purpose Flood Shelter",
+          "district": "Golaghat / Nagaon",
+          "coordinates": { "lat": 26.5775, "lng": 93.1711 },
+          "elevationMeters": 48.5,
+          "capacityPersons": 3500,
+          "facilities": ["High-capacity diesel dewatering pump", "Overhead RO water filtration", "Solar microgrid 40kW", "Animal livestock flood ramp"],
+          "nodalOfficer": "District Project Officer ASDMA",
+          "contactPhone": "03776-268021"
+        },
+        {
+          "shelterId": "AS-SHT-02",
+          "name": "Guwahati Brahmaputra Embankment Relief Camp",
+          "district": "Kamrup Metropolitan",
+          "coordinates": { "lat": 26.1856, "lng": 91.7478 },
+          "elevationMeters": 55.0,
+          "capacityPersons": 5000,
+          "facilities": ["Emergency triage surgical bay", "10,000L Potable water tank", "Helipad access zone", "Satellite comms terminal"],
+          "nodalOfficer": "Sub-Divisional Officer (Civil)",
+          "contactPhone": "0361-2733005"
+        },
+        {
+          "shelterId": "AS-SHT-03",
+          "name": "Silchar Cachar High-Ground Cyclone and Inundation Shelter",
+          "district": "Cachar",
+          "coordinates": { "lat": 24.8333, "lng": 92.7789 },
+          "elevationMeters": 32.0,
+          "capacityPersons": 2800,
+          "facilities": ["Flood barricades", "Medical dispensary", "Sanitation block", "Emergency grain storage"],
+          "nodalOfficer": "Circle Officer Cachar",
+          "contactPhone": "03842-245001"
+        },
+        {
+          "shelterId": "AS-SHT-04",
+          "name": "Dibrugarh Brahmaputra Riverine Flood Relief Centre",
+          "district": "Dibrugarh",
+          "coordinates": { "lat": 27.4728, "lng": 94.9120 },
+          "elevationMeters": 108.0,
+          "capacityPersons": 4200,
+          "facilities": ["High-volume mobile dewatering pumps", "Inflatable rescue boat jetty", "Medical vaccination dispensary", "Solar satellite beacon"],
+          "nodalOfficer": "Sub-Divisional Officer Dibrugarh",
+          "contactPhone": "0373-2312224"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Kamrup Metropolitan", "deocNumber": "1077", "alternate": "0361-2733052", "policeControl": "112" },
+        { "district": "Golaghat", "deocNumber": "1077", "alternate": "03774-280125", "policeControl": "112" },
+        { "district": "Cachar", "deocNumber": "1077", "alternate": "03842-245812", "policeControl": "112" },
+        { "district": "Dibrugarh", "deocNumber": "1077", "alternate": "0373-2312224", "policeControl": "112" }
+      ]
+    },
+    "tamilnadu": {
+      "stateName": "Tamil Nadu",
+      "capital": "Chennai",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Tamil Nadu State Disaster Management Authority (TNDSMA)",
+      "primaryHazards": ["Bay of Bengal Cyclones", "Storm Surges", "Urban Flooding", "Coastal Erosion"],
+      "policeJurisdictionFormat": "TN-POL-{DISTRICT}-GD/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "Tamil Nadu SDRF Avadi Battalion", "contact": "044-26554100", "specialization": "Urban Search and Coastal Storm Rescue" },
+        { "unit": "SDRF Coastal Unit Cuddalore", "contact": "04142-220015", "specialization": "Inundated Estuary and Marine Evacuation" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "TN-SHT-01",
+          "name": "Cuddalore Multi-Hazard Coastal Cyclone Shelter",
+          "district": "Cuddalore",
+          "coordinates": { "lat": 11.7480, "lng": 79.7714 },
+          "elevationMeters": 8.5,
+          "capacityPersons": 4200,
+          "facilities": ["Reinforced wind-resistant roof", "Backup 62.5kVA generator", "Ground-floor stilt design for surge waters", "Medical bay"],
+          "nodalOfficer": "Tahsildar Cuddalore Coastal Division",
+          "contactPhone": "04142-220011"
+        },
+        {
+          "shelterId": "TN-SHT-02",
+          "name": "Chengalpattu Kattankulathur High-Ground Relief Hub",
+          "district": "Chengalpattu",
+          "coordinates": { "lat": 12.8231, "lng": 80.0442 },
+          "elevationMeters": 38.0,
+          "capacityPersons": 6000,
+          "facilities": ["National Highway arterial connectivity", "Multi-bed emergency trauma facility", "Submersible water purification", "Ample transit staging"],
+          "nodalOfficer": "Revenue Divisional Officer Chengalpattu",
+          "contactPhone": "044-27422201"
+        },
+        {
+          "shelterId": "TN-SHT-03",
+          "name": "Nagapattinam Coastal Community Surge Shelter",
+          "district": "Nagapattinam",
+          "coordinates": { "lat": 10.7672, "lng": 79.8449 },
+          "elevationMeters": 11.0,
+          "capacityPersons": 3000,
+          "facilities": ["Early warning siren tower", "Food preparation center", "Clean drinking water borewell", "Wireless communication post"],
+          "nodalOfficer": "Nagapattinam Coastal Relief Officer",
+          "contactPhone": "04365-252700"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Chennai", "deocNumber": "1077", "alternate": "044-25619206", "policeControl": "112" },
+        { "district": "Chengalpattu", "deocNumber": "1077", "alternate": "044-27427412", "policeControl": "112" },
+        { "district": "Cuddalore", "deocNumber": "1077", "alternate": "04142-220015", "policeControl": "112" }
+      ]
+    },
+    "uttarakhand": {
+      "stateName": "Uttarakhand",
+      "capital": "Dehradun",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Uttarakhand State Disaster Management Authority (USDMA)",
+      "primaryHazards": ["Seismic Slope Subsidence", "Himalayan Landslides", "Cloudburst Debris Slurry", "Flash Floods"],
+      "policeJurisdictionFormat": "UK-POL-{DISTRICT}-FIR/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "Uttarakhand SDRF High Altitude Rescue Team Joshimath", "contact": "01372-252101", "specialization": "Mountain Cliff Rescue and Alpine Trauma Evacuation" },
+        { "unit": "SDRF Chamoli Disaster Division", "contact": "01372-251437", "specialization": "Road Debris Clearance and Avalanche Response" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "UK-SHT-01",
+          "name": "Joshimath Ravigram Geotechnical Safe Relief Assembly",
+          "district": "Chamoli",
+          "coordinates": { "lat": 30.5562, "lng": 79.5663 },
+          "elevationMeters": 1890.0,
+          "capacityPersons": 3000,
+          "facilities": ["Subsidence-monitored bedrock zone", "High-altitude winterized family tents", "Oxygen concentrators", "Satellite communication terminal"],
+          "nodalOfficer": "Sub-Divisional Magistrate Joshimath",
+          "contactPhone": "01372-222100"
+        },
+        {
+          "shelterId": "UK-SHT-02",
+          "name": "Gopeshwar Chamoli Central District Safe Camp",
+          "district": "Chamoli",
+          "coordinates": { "lat": 30.4072, "lng": 79.3242 },
+          "elevationMeters": 1550.0,
+          "capacityPersons": 4500,
+          "facilities": ["District hospital proximity", "Helipad clearance", "Continuous hot water supply", "Emergency food reserve 30-day stock"],
+          "nodalOfficer": "Additional District Magistrate Chamoli",
+          "contactPhone": "01372-252107"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Chamoli", "deocNumber": "1077", "alternate": "01372-251437", "policeControl": "112" }
+      ]
+    },
+    "odisha": {
+      "stateName": "Odisha",
+      "capital": "Bhubaneswar",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Odisha State Disaster Management Authority (OSDMA)",
+      "primaryHazards": ["Super Cyclones", "Severe Storm Surges", "Mahanadi Floods", "Coastal Gales"],
+      "policeJurisdictionFormat": "OD-POL-{DISTRICT}-FIR/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "ODRAF 1st Battalion Cuttack", "contact": "0671-2305411", "specialization": "Mechanized Tree Clearing and Flood Rescue" },
+        { "unit": "ODRAF Paradip Coastal Strike Team", "contact": "06722-222030", "specialization": "Coastal Breaches and Harbor Surge Response" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "OD-SHT-01",
+          "name": "Paradip Port Multipurpose Cyclone Shelter",
+          "district": "Jagatsinghpur",
+          "coordinates": { "lat": 20.2644, "lng": 86.6713 },
+          "elevationMeters": 12.0,
+          "capacityPersons": 4500,
+          "facilities": ["Reinforced concrete shelter", "Helicopter landing pad nearby", "Dedicated solar pumps", "Direct hotlines to SEOC"],
+          "nodalOfficer": "Sub-Collector Jagatsinghpur",
+          "contactPhone": "06722-222010"
+        },
+        {
+          "shelterId": "OD-SHT-02",
+          "name": "Puri Grand Road Elevated Evacuation Staging Centre",
+          "district": "Puri",
+          "coordinates": { "lat": 19.8135, "lng": 85.8312 },
+          "elevationMeters": 18.0,
+          "capacityPersons": 7000,
+          "facilities": ["Ambulance triage zone", "Mass feeding kitchen", "Potable water reservoir", "Satellite internet link"],
+          "nodalOfficer": "Additional District Magistrate Puri",
+          "contactPhone": "06752-223400"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Jagatsinghpur", "deocNumber": "1077", "alternate": "06722-222030", "policeControl": "112" },
+        { "district": "Puri", "deocNumber": "1077", "alternate": "06752-223237", "policeControl": "112" }
+      ]
+    },
+    "kerala": {
+      "stateName": "Kerala",
+      "capital": "Thiruvananthapuram",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Kerala State Disaster Management Authority (KSDMA)",
+      "primaryHazards": ["Monsoon Flash Floods", "Hill Landslides & Debris Slips", "Dam Water Releases", "Coastal Sea Swells"],
+      "policeJurisdictionFormat": "KL-POL-{DISTRICT}-FIR/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "Kerala Police SDRF North Range Wayanad", "contact": "04936-202200", "specialization": "Mountainous Landslide Search and Riverine Triage" },
+        { "unit": "Kerala SDRF Central Range Alappuzha", "contact": "0477-2238630", "specialization": "Kuttanad Low-Lying Backwater Evacuation" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "KL-SHT-01",
+          "name": "Wayanad Meppadi Hill-Safety Relief Hub",
+          "district": "Wayanad",
+          "coordinates": { "lat": 11.5540, "lng": 76.1262 },
+          "elevationMeters": 780.0,
+          "capacityPersons": 3200,
+          "facilities": ["Geotechnical landslide warning sensor link", "Emergency surgical camp", "Field ambulance fleet", "Water purification kits"],
+          "nodalOfficer": "Deputy Collector Disaster Management Wayanad",
+          "contactPhone": "04936-204151"
+        },
+        {
+          "shelterId": "KL-SHT-02",
+          "name": "Alappuzha High-Level Flood Evacuation Center",
+          "district": "Alappuzha",
+          "coordinates": { "lat": 9.4981, "lng": 76.3388 },
+          "elevationMeters": 6.5,
+          "capacityPersons": 4000,
+          "facilities": ["Rescue boat jetty access", "Elevated dormitories", "Anti-leptospirosis prophylaxis unit", "Community kitchen"],
+          "nodalOfficer": "Sub-Collector Alappuzha",
+          "contactPhone": "0477-2251677"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Wayanad", "deocNumber": "1077", "alternate": "04936-204151", "policeControl": "112" },
+        { "district": "Alappuzha", "deocNumber": "1077", "alternate": "0477-2238630", "policeControl": "112" }
+      ]
+    },
+    "gujarat": {
+      "stateName": "Gujarat",
+      "capital": "Gandhinagar",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Gujarat State Disaster Management Authority (GSDMA)",
+      "primaryHazards": ["Arabian Sea Cyclones", "Narmada River Inundation", "Dam Overflow", "Earthquakes"],
+      "policeJurisdictionFormat": "GJ-POL-{DISTRICT}-CR/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "GSDMA SDRF 1st Group Vadodara", "contact": "0265-2423101", "specialization": "Riverine Flood and Dam Breach Relief" },
+        { "unit": "GSDMA SDRF 2nd Group Bhuj / Kutch", "contact": "02832-250020", "specialization": "Seismic Collapsed Structure Search and Coastal Surge" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "GJ-SHT-01",
+          "name": "Bharuch Narmada High-Ground Evacuation Complex",
+          "district": "Bharuch",
+          "coordinates": { "lat": 21.7051, "lng": 72.9959 },
+          "elevationMeters": 28.0,
+          "capacityPersons": 5500,
+          "facilities": ["High-capacity dewatering pumps", "Emergency medical store", "Heavy vehicle staging ground", "Independent generator backup"],
+          "nodalOfficer": "Resident Additional Collector Bharuch",
+          "contactPhone": "02642-242200"
+        },
+        {
+          "shelterId": "GJ-SHT-02",
+          "name": "Kandla Port Coastal Cyclone Protection Shelter",
+          "district": "Kutch",
+          "coordinates": { "lat": 23.0044, "lng": 70.2183 },
+          "elevationMeters": 14.0,
+          "capacityPersons": 3800,
+          "facilities": ["Seismic-resistant construction", "Desalination water point", "VHF marine radio base", "First responder barracks"],
+          "nodalOfficer": "Disaster Management Officer Gandhidham",
+          "contactPhone": "02836-233100"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Bharuch", "deocNumber": "1077", "alternate": "02642-242200", "policeControl": "112" },
+        { "district": "Kutch", "deocNumber": "1077", "alternate": "02832-250020", "policeControl": "112" }
+      ]
+    },
+    "maharashtra": {
+      "stateName": "Maharashtra",
+      "capital": "Mumbai",
+      "stateHelpline": "1070",
+      "stateDisasterAuthority": "Maharashtra State Disaster Management Authority (SDMA)",
+      "primaryHazards": ["Vashishti River Flash Inundation", "Koyna Dam Reservoir Discharge", "Western Ghats Landslides", "Konkan Coastal Gales"],
+      "policeJurisdictionFormat": "MH-POL-{DISTRICT}-FIR/{YEAR}/{SERIAL}",
+      "sdrfBattalions": [
+        { "unit": "Maharashtra SDRF 1st Bn Nagpur / Pune Sub-Unit", "contact": "020-26123371", "specialization": "Deep Reservoir Flood Rescue & High-Discharge Jet Boats" },
+        { "unit": "SDRF Konkan Coastal Quick Response Unit Chiplun", "contact": "02355-252033", "specialization": "Estuary Dewatering and Flash Inundation Evacuation" }
+      ],
+      "designatedShelters": [
+        {
+          "shelterId": "MH-SHT-01",
+          "name": "Chiplun High-Ground Municipal Disaster Evacuation Complex",
+          "district": "Ratnagiri",
+          "coordinates": { "lat": 17.5323, "lng": 73.5173 },
+          "elevationMeters": 42.0,
+          "capacityPersons": 5000,
+          "facilities": ["High-capacity dewatering pumps", "Emergency medical trauma bay", "Rooftop helipad staging", "Water purification plant"],
+          "nodalOfficer": "Sub-Divisional Officer Chiplun",
+          "contactPhone": "02355-252044"
+        },
+        {
+          "shelterId": "MH-SHT-02",
+          "name": "Khed Konkan Elevated Community Relief Centre",
+          "district": "Ratnagiri",
+          "coordinates": { "lat": 17.7214, "lng": 73.3894 },
+          "elevationMeters": 58.0,
+          "capacityPersons": 3600,
+          "facilities": ["Elevated stilt dormitories", "Emergency power generator 80kVA", "Mass feeding kitchen", "Satellite communications"],
+          "nodalOfficer": "Tahsildar Khed",
+          "contactPhone": "02356-263012"
+        }
+      ],
+      "districtEmergencyCentres": [
+        { "district": "Ratnagiri", "deocNumber": "1077", "alternate": "02352-226248", "policeControl": "112" }
+      ]
+    }
+  },
+  "ndmaStandardProtocols": {
+    "potableWaterLitersPerPersonPerDay": 3.5,
+    "dryRationKcalPerPersonPerDay": 2100,
+    "shelterAreaSqMetersPerPerson": 3.5,
+    "toiletRatioPerPersons": 25,
+    "irbBoatRatioPerFiveThousandImpacted": 4,
+    "nationalHelplines": [
+      { "service": "Unified National Emergency Number", "dial": "112" },
+      { "service": "NDMA National Disaster Control Cell", "dial": "1078" },
+      { "service": "NDRF Operations HQ New Delhi", "dial": "011-24363260" },
+      { "service": "Fire and Rescue", "dial": "101" },
+      { "service": "Ambulance and Trauma", "dial": "108" }
+    ]
+  }
+}
